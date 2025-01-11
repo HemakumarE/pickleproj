@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+h1,
+ul,
+li {
+    display: inline;
+}
+
+li {
+    color: gray;
+    cursor: pointer;
+}
+
+li:hover {
+    color: white;
+}
+
+ul {
+    padding-left: 60%;
+}
+
+input {
+    width: 60%;
+    padding: 15px;
+}
+
+.search {
+    text-align: center;
+    padding: 50px;
+}
+
+.box {
+
+    display: inline-block;
+    width: 225px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.images {
+    text-align: center;
+}
+
+.box:hover {
+    background-color: black;
+    color: white;
+}
+
+.about {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.contact {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
